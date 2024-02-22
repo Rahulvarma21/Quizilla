@@ -1,0 +1,147 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.header{
+  font-family: "Lexend Deca", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  margin: 10vh 2vh 10vh 2vh;
+}
+#title{
+  font-size: 30px;
+}
+#theme{
+  border-radius: 30px;
+  width: 5%;
+  box-shadow: 1px 1px 20px rgb(100, 168, 177);
+}
+.container{
+  font-family: "Lexend Deca", sans-serif;
+  text-align: center;
+  width: 60%;
+  background-color: #ddd8d8;
+  margin: 0vh auto;
+  padding: 1vh;
+  border-radius: 30px;
+  box-shadow: 1px 1px 50px lightblue;
+  opacity: 0.8;
+}
+button{
+  border: none;
+  padding: 1vh;
+  cursor: pointer;
+}
+.options{
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  width: 60%;
+  margin: 0vh auto;
+}
+.options>button{
+  font-size: 20px;
+  font-family: "Lexend Deca", sans-serif;
+  border-radius: 30px;
+  color: white;
+  background-color: black;
+}
+#optionsFont:hover{
+  color: black;
+  background-color: aliceblue;
+}
+.selectionBtns{
+  display: flex;
+  justify-content: center;
+  gap: 4vh;
+  padding-top: 2vh;
+  margin-bottom: 5vh;
+}
+.selectionBtns>button{
+  font-family: "Lexend Deca", sans-serif;
+  border-radius: 30px;
+}
+.number{
+  font-size: 20px;
+  padding: 2vh;
+}
+
+#question{
+  font-size: 30px;
+  margin-bottom: 4vh;
+}
+#keepBtn{
+  color: white;
+  background-color: black;
+  font-size: 15px;
+}
+#keepBtn:hover{
+  color: black;
+  background-color: white;
+}
+#removeBtn{
+  font-size: 15px;
+  color: black;
+  background-color: white;
+}
+@media only screen and (max-width: 768px) {
+  .header{
+    margin: 10vh 2vh 15vh 2vh;
+  }
+  #theme{
+    width: 10%;
+  }
+  #questionNo{
+    font-size: 25px;
+  }
+  #question{
+    font-size: 23px;
+  }
+  #optionsFont{
+    font-size: 15px;
+  }
+}
+
+
+@media only screen and (max-width: 426px){
+  .header{
+    margin: 10vh 2vh 15vh 2vh;
+  }
+  #theme{
+    font-size: 13px;
+    width: 14%;
+  }
+  #title{
+    font-size: 20px;
+  }
+  .number{
+    padding: 1vh;
+  }
+  #questionNo{
+    padding: 1vh;
+  }
+  #questionNo{
+    font-size: 15px;
+  }
+  #question{
+    font-size: 15px;
+  }
+  #optionsFont{
+    font-size: 13px;
+  }
+  .selectionBtns{
+    gap: 2vh;
+  }
+  #keepBtn{
+    font-size: 12px;
+  }
+  #removeBtn{
+    font-size: 12px;
+  }
+  .container{
+    width: 70%;
+  }
+  .options{
+    width: 80%;
+  }
+}

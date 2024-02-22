@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.resultcontainer{
+    font-family: "Lexend Deca", sans-serif;
+    text-align: center;
+    width: 60%;
+    background-color: #ddd8d8;
+    margin: 0vh auto;
+    padding: 1vh;
+    border-radius: 30px;
+}
+.resultHeader{
+    font-family: "Lexend Deca", sans-serif;
+    display: flex;
+    justify-content: space-around;
+    margin: 10vh 2vh 15vh 2vh;
+}
+#finalTitle{
+    font-size: 30px;
+}
+#themeBtn{
+    border-radius: 30px;
+    width: 5%;
+}
+h1{
+    color: green;
+    padding-bottom: 4vh;
+}
+h2{
+    font-size: 30px;
+    padding-bottom: 2vh;
+}
+span{
+    color: blue;
+}
+#playBtn{
+    border-radius: 30px;
+    font-family: "Lexend Deca", sans-serif;
+    margin: 5vh;
+    width: 10%;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+}
+#playBtn:hover{
+    background-color: white;
+    color: black;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #themeBtn{
+      width: 10%;
+    }
+    #playBtn{
+        width: 20%;
+    }
+  }
+
+  @media only screen and (max-width: 426px){
+    .resultHeader{
+      margin: 10vh 2vh 15vh 2vh;
+    }
+    #themeBtn{
+      width: 14%;
+    }
+    #title{
+      font-size: 20px;
+    }
+    img{
+        width: 90%;
+    }
+    #finalTitle{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 20px;
+        padding: 2vh;
+    }
+    h2{
+        font-size: 17px;
+    }
+    #playBtn{
+        width: 40%;
+    }
+  }
